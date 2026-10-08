@@ -1,0 +1,23 @@
+# Build output
+Debug/
+Release/
+build/
+cmake-build-*/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# Local workspace metadata
+.metadata/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+__pycache__/
+
+# Local credentials
+.env
+.env.*
+!.env.example
